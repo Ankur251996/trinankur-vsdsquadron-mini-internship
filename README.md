@@ -36,3 +36,7 @@ Also on verifying the result with the help of a programming calculator we get th
 Now, again we create a .o file and observe the no. of instructions for ofast, by following the same procedure as we did it for O1. So, we will find that the no. of instructions is reduced to 12 as can be depicted from the snapshot.
 
 ![VirtualBox_vsdworkshop_22_05_2024_22_47_06](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/4c7eac53-bf2b-4f29-9c8a-2545d308f94f)
+
+Similarly,here also on verifying the result with the help of a programming calculator we get the no. of instructions as 12, for ofast and n=100.
+
+Therefore, it is evident that no. of instructions is different for o1 and ofast i.e, 15 and 12, for n=100.
