@@ -33,3 +33,5 @@ Now we write a command "riscv64-unknown-elf-objdump -d sum1ton.o | less" to redu
 
 Also on verifying the result with the help of a programming calculator we get the no. of instructions as 15, for O1 and n=100.
 
+Now, again we create a .o file and observe the no. of instructions for ofast, by following the same procedure as we did it for O1. So, we will find that the no. of instructions is reduced to 12 as can be depicted from the snapshot.
+
