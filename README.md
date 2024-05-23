@@ -30,3 +30,6 @@ Now, we get a large set of instructions in assembly language, using the command 
 Now we write a command "riscv64-unknown-elf-objdump -d sum1ton.o | less" to reduce this large set of assembly language instructions. After that we use the command "/main" as we are mainly concerned about the main,as this is the part where our c code lies, and then press n. we get 15 possible instructions for O1 as can be depicted from the snapshot.
 
 ![VirtualBox_vsdworkshop_22_05_2024_22_25_45](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/bb2cac95-7cad-4ec3-b728-6c27ee6c1991)
+
+Also on verifying the result with the help of a programming calculator we get the no. of instructions as 15, for O1 and n=100.
+
