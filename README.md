@@ -110,9 +110,14 @@ In RV32, each instruction is of size 32 bits. In U-type instruction, U stands fo
 ![326075039-4f3df58b-8c0c-45c6-ba39-a196547dd38f](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/d0e1cfae-d4b6-4a60-ac72-eadaa0ef8571)
 
 - The first field in the instruction format is known as **opcode**, also referred as operation code. The opcode is of length seven bits and is used to determine the type of instruction format.
-- The J-type instruction only consists of single instruction, `JAL`.
-- J-type instruction encode 20 bits signed immediate which is divided into four fields.
-- The J-type instructions are often used to perform jump to the desired memory location. The address of the desired memory location is defined in the instruction. These instructions are also used to implement loops.
+- The U-type instruction only consists of two instructions, i.e., `LUI` and `AUIPC`.
+- For Example, lets take the instruction **lui rd, imm** and understand this instruction. `lui x15, 0x13579`:This instruction will be executed and the immediate value 0x13579 will be written in the MSB of the rdx15, and it will look like x15=0x13579000.
+
+### 6. J-type instruction
+In RV32, each instruction is of size 32 bits. In J-type instruction, J stands for jump, which means that this instruction format is used to implement jump tytpe instruction. THe entire 32 bits instruction is divided into six fields as shown below:
+
+
+  
 
 
   
