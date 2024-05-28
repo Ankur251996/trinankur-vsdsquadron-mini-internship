@@ -67,7 +67,7 @@ In RV32, each instruction is of size 32 bits. In R-type instruction, R stands fo
 
 ![326074559-4a17f03e-ae74-4809-a8d9-79924fb8b421](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/3402b3b1-2a52-46b8-9688-6b25badb956b)
 
-- The first field in the instruction format is known as **opcode**, also referred asa operation code. The opcode is of length 7 bits and is used to determine the type of instruction format.
+- The first field in the instruction format is known as **opcode**, also referred as operation code. The opcode is of length 7 bits and is used to determine the type of instruction format.
 - The next subfield is known as **rd** field which is referred as Destination Register. The rd field is of length 5 bits and is used to store the final result of operation.
 - The next subfield is **func3** also referred as function 3. Here the '3' represents the size of this field. This field tells the detail about the operation, i.e., the type of the arithmetic or logical operation, that is performed.
 - The next two subfields are the source registers, **rs1 and rs2** each of length 5 bits. These are mainly used to store and manipulate the data during the execution of instructions.
