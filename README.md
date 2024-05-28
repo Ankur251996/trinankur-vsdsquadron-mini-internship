@@ -42,4 +42,4 @@ Similarly,here also on verifying the result with the help of a programming calcu
 Therefore, it is evident that no. of instructions is different for o1 and ofast i.e, 15 and 12, for n=100.
 
 TASK 2
-
+###
