@@ -263,6 +263,31 @@ In RV32, each instruction is of size 32 bits. In J-type instruction, J stands fo
   
 ## 32 bits instruction: `0_000000_00000_00000_000_1111_0_1100011`  
 
+`LW r13, r1, 2`
+
+- LW stands for Load Word. Word is equal to 32 bits or 4 bytes. Since there is an immediate value given in the instruction which helps to calculate the address of memory from where we have to fetch the data, hence this instruction belongs to I-type.
+- r13 is the destination register that will hold the value fetched from the memory location calculated by using(address value stored in r1 + immediate value)
+- Opcode for LW = 0000011
+- rd = r13 = 01101
+- rs1 = r1 = 00001
+- imm[11:0] = 000000000010
+- func3 = 010
+  
+## 32 bits instruction: `000000000010_00001_010_01101_0000011`  
+
+`SLL r15, r1, r2`
+
+- SLL means Logical Shift and since the operation is performed on registers, this instruction belongs to R-type instruction set.
+- r15 is the destination register, in which the value stored in r1 will be written after performing logical left shift based on the number stored in r2.
+- Opcode for SLL = 0110011
+- rd = r15 = 01111
+- rs1 = r1 = 00001
+- rs2 = r2 =00010
+- func3 = 001
+- func7 = 0000000
+  
+## 32 bits instruction: `0000000_00010_00001_001_01111_0110011`  
 
 
+  
   
