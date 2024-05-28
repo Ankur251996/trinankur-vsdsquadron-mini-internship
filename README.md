@@ -60,4 +60,7 @@ The instructions format of a processor is the way in which machine language inst
 
 ![word-image-1](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/99063392-23d4-4fc9-8e84-41cb8ac52314)
 
-`` R, I, S, B, U and J``.
+Let's discuss each of the instruction formats in detail with examples.
+
+### 1. R-type instruction
+In RV32, each instruction is of size 32 bits. In R-type instruction, R stands for register which means that operations are carried on the Registers and not on memory location. This instruction type is used to execute various arithmetic and logical operations. The entire 32 bits instruction is divided into six fields as shown below:
