@@ -216,18 +216,17 @@ In RV32, each instruction is of size 32 bits. In J-type instruction, J stands fo
   
 ## 32 bits instruction: `000000000101_00100_000_01100_0010011`  
 
-`XOR r10, r1, r4`
+`SW r3, r1, 2`
 
-- All the arithmetic and logical operations are performed using R-type instruction format, hence this instruction belongs to R-type instruction set.
-- r10 is the destination register that will hold the value of r1^r4, means performing XOR operation bit by bit.
-- Opcode for XOR = 0110011
-- rd = r10 = 01010
+- In this instruction SW means store word, hence this instruction belongs to S-type instruction set.
+- r3 is the source . This instruction will store the value located in register r3 at the address obtained by adding the immediate address 2 with the address located in register r1.
+- Opcode for SW = 0100011
+- rs2 = r3 = 00011
 - rs1 = r1 = 00001
-- rs2 = r4 = 00100
-- func3 = 100
-- func7 = 0000000
+- imm[11:0]= 2 = 000000000010
+- func3 = 010
   
-## 32 bits instruction: `0000000_00100_00001_100_01010_0110011`  
+## 32 bits instruction: `0000000_00011_00001_010_00010_0100011`  
 
 `XOR r10, r1, r4`
 
