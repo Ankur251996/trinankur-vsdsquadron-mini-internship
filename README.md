@@ -96,5 +96,7 @@ In RV32, each instruction is of size 32 bits. In S-type instruction, S stand for
 ### 4. B-type instruction
 In RV32, each instruction is of size 32 bits. In B-type instruction, B stand for branching which means it is mainly used for branching based on certain conditions. The entire 32 bits instruction is divided into eight fields as shown below:
 
+![326074920-14486f41-f3e4-4c4a-85b0-9acc56be3f46](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/4ac6450f-9026-4cc2-bda7-3946b1c75086)
+
 
   
