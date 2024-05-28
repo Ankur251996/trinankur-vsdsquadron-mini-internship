@@ -107,6 +107,8 @@ In RV32, each instruction is of size 32 bits. In B-type instruction, B stand for
 ### 5. U-type instruction
 In RV32, each instruction is of size 32 bits. In U-type instruction, U stands for Upper Immediate instructions which means it is simply used to transfer the immediate data into the destination register. The entire 32-bits instruction is divided into 3 fields as shown below:
 
+![326075039-4f3df58b-8c0c-45c6-ba39-a196547dd38f](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/d0e1cfae-d4b6-4a60-ac72-eadaa0ef8571)
+
 
 
   
