@@ -75,3 +75,4 @@ In RV32, each instruction is of size 32 bits. In R-type instruction, R stands fo
 ### 2. I-type instruction
 In RV32, each instruction is of size 32 bits. In I-type instruction, I stands for immediate which means that operations use Registers and immediate value for their execution and are not related with memory location. This instruction type is used in immediate and load operations. The entire 32 bits instructions is divided into five fields as shown below:
 
+![326074718-4a53f5fa-d55a-4308-8f93-a0f2f3aedba0](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/259f09ad-f5b6-4267-874b-64cdf1131d74)
