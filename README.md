@@ -43,4 +43,9 @@ Therefore, it is evident that no. of instructions is different for o1 and ofast 
 
 ## TASK 2
 
-- RISC
+We have to identify instruction type of all the given instructions with its exact 32 bits instruction code in the desired instruction type format.
+
+### What is RISC-V?
+- RISC-V is an open source instruction set architecture (ISA) that allows developers to develop processors for specific applications.
+- RISC-V is based on reduced instruction set computer principles and is the fifth generation of processors built on this concept.
+- RISC-V can also be understood as an alternative processor technology which is free and open, meaning that it does not require, one to purchase the license of RISC-V to use it,i.e. it is an open source platform.
