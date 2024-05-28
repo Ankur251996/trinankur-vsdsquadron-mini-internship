@@ -98,5 +98,11 @@ In RV32, each instruction is of size 32 bits. In B-type instruction, B stand for
 
 ![326074920-14486f41-f3e4-4c4a-85b0-9acc56be3f46](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/4ac6450f-9026-4cc2-bda7-3946b1c75086)
 
+- The first field in the instruction format is known as opcode, also referred as operation code. The opcode is of length seven bits and is used to determine the type of the instruction format.
+- B-type instructions encode a 12-bit signed immediate, with the most significant bit **imm[12] in bit [31]** of the instruction, six bits **imm[10:5] in bits [25:30]** of the instruction, four bits **imm[4:1] in bits[11:8] and one bit **imm[11] on bit[7]**.
+- There are two source registers **rs1 and rs2** on which various operations are performed based on certain conditions, and those conditions are defined by **func3** field.
+- After performing operations on the source register based on the conditions, it is evaluated that if the condition is true, Program Counter value gets updated by ``PC= Present PC Value + Immediate value``, and if the condition is false then PC will be given as ``PC= Present PC value + 4 bytes``, which states that PC will move to next instruction set.
+- RV32 instructions are word-alligned, which means that address is always defined in the multiple of 4 bytes.
+
 
   
