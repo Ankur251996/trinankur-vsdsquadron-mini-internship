@@ -49,3 +49,11 @@ We have to identify instruction type of all the given instructions with its exac
 - RISC-V is an open source instruction set architecture (ISA) that allows developers to develop processors for specific applications.
 - RISC-V is based on reduced instruction set computer principles and is the fifth generation of processors built on this concept.
 - RISC-V can also be understood as an alternative processor technology which is free and open, meaning that it does not require, one to purchase the license of RISC-V to use it,i.e. it is an open source platform.
+### INSTRUCTIONS FORMAT IN RISC-V
+The instructions format of a processor is the way in which machine language instructions are structured and organized for a processor to execute. It is made up of series of 0s and 1s, each containing information about the location and operation of data. There are six instruction format in RISC-V:
+- R-format
+- I-format
+- S-format
+- B-format
+- U-format
+- J-format
