@@ -123,6 +123,9 @@ In RV32, each instruction is of size 32 bits. In J-type instruction, J stands fo
 - J-type instruction encode 20 bits signed immediate which is divided into four fields.
 - The J-type instructions are often used to perform jump to the desired memory location. The address of the desired memory location is defined in the instruction. These instructions are also used to implement loops.
   
+### Now, let's analyse each instruction given to us one by one
+`ADD r6, r2, r1`
+  
 
 
   
