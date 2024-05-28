@@ -93,6 +93,8 @@ In RV32, each instruction is of size 32 bits. In S-type instruction, S stand for
 - S-type instruction doesn't have rd fields which states that this instructions are not used to write value to a register, but to write/store a value to a memory.
 - The value to be stored is defined in **rs1** field and address to which we have to store this value is calculated using **rs1 and immediate** field. The width of the operation and types of instruction is defined by func3, it can be a word, half-word or byte.
 
+### 4. B-type instruction
+In RV32, each instruction is of size 32 bits. In B-type instruction, B stand for branching which means it is mainly used for branching based on certain conditions. The entire 32 bits instruction is divided into eight fields as shown below:
 
 
   
