@@ -114,7 +114,7 @@ In RV32, each instruction is of size 32 bits. In U-type instruction, U stands fo
 - For Example, lets take the instruction **lui rd, imm** and understand this instruction. `lui x15, 0x13579`:This instruction will be executed and the immediate value 0x13579 will be written in the MSB of the rdx15, and it will look like x15=0x13579000.
 
 ### 6. J-type instruction
-In RV32, each instruction is of size 32 bits. In J-type instruction, J stands for jump, which means that this instruction format is used to implement jump tytpe instruction. THe entire 32 bits instruction is divided into six fields as shown below:
+In RV32, each instruction is of size 32 bits. In J-type instruction, J stands for jump, which means that this instruction format is used to implement jump type instruction. The entire 32 bits instruction is divided into six fields as shown below:
 
 
   
