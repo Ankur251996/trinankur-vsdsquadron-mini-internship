@@ -72,3 +72,6 @@ In RV32, each instruction is of size 32 bits. In R-type instruction, R stands fo
 - The next subfield is **func3** also referred as function 3. Here the '3' represents the size of this field. This field tells the detail about the operation, i.e., the type of the arithmetic or logical operation, that is performed.
 - The next two subfields are the source registers, **rs1 and rs2** each of length 5 bits. These are mainly used to store and manipulate the data during the execution of instructions.
 - The last subfield is **func7** also referred as function 7. Here 7 represents the size of the field. The function of func7 field is same as that of func3 field.
+### 2. I-type instruction
+In RV32, each instruction is of size 32 bits. In I-type instruction, I stands for immediate which means that operations use Registers and immediate value for their execution and are not related with memory location. This instruction type is used in immediate and load operations. The entire 32 bits instructions is divided into five fields as shown below:
+
