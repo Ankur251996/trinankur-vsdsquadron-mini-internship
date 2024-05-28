@@ -1,6 +1,6 @@
  # VSDSquadron
 
- TASK1
+ ## TASK1
 
  RISC-V toolchain installation has been done successfully.
  Next,the task was to compile the C code, which calculates the sum from 1to n. For,this I used the leafpad tool and the command to open it is "leafpad sum1ton.c & ". After that, the code for sum from 1to n is compiled successfully. The snapshot below depicts the same for n=5 and 100. The command "./a.out" is used to display the output.
@@ -41,5 +41,4 @@ Similarly,here also on verifying the result with the help of a programming calcu
 
 Therefore, it is evident that no. of instructions is different for o1 and ofast i.e, 15 and 12, for n=100.
 
-TASK 2
-### BULLETS
+## TASK 2
