@@ -104,5 +104,12 @@ In RV32, each instruction is of size 32 bits. In B-type instruction, B stand for
 - After performing operations on the source register based on the conditions, it is evaluated that if the condition is true, Program Counter value gets updated by ``PC= Present PC Value + Immediate value``, and if the condition is false then PC will be given as ``PC= Present PC value + 4 bytes``, which states that PC will move to next instruction set.
 - RV32 instructions are word-alligned, which means that address is always defined in the multiple of 4 bytes.
 
+### 5. U-type instruction
+In RV32, each instruction is of size 32 bits. In U-type instruction, U stands for Upper Immediate instructions which means it is simply used to transfer the immediate data into the destination register. The entire 32-bits instruction is divided into 3 fields as shown below:
+
+
+
+  
+
 
   
