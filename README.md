@@ -190,7 +190,84 @@ In RV32, each instruction is of size 32 bits. In J-type instruction, J stands fo
   
 ## 32 bits instruction: `0000000_00100_00001_100_01010_0110011`  
 
+  `SLT r11, r2, r4`
+
+- Since the logical operations is performed on registers, hence this instruction belongs to R-type instruction set.
+- r1 is the destination register that sets to 1, if r2 is less than r4, else 0 if r2 is greater than r4.
+- Opcode for SLT = 0110011
+- rd = r1 = 01011
+- rs1 = r2 = 00010
+- rs2 = r4 = 00100
+- func3 = 010
+- func7 = 0000000
   
+## 32 bits instruction: `0000000_00100_00010_010_01011_0110011`  
+
+`ADDI r12, r4, 5`
+
+- In this instruction ADD means Addition, I means Immediate, therefore ADDI means Addition with Immediate, hence this instruction belongs to I-type instruction set.
+- r12 is the destination register that will store the value of r5 sum-up with the immediate value 5.
+- Opcode for ADDI = 0010011
+- rd = r12 = 01100
+- rs1 = r4 = 00100
+- imm[11:0] = 5 = 000000000101
+- func3 = 100
+- func7 = 0000000
+  
+## 32 bits instruction: `000000000101_00100_000_01100_0010011`  
+
+`XOR r10, r1, r4`
+
+- All the arithmetic and logical operations are performed using R-type instruction format, hence this instruction belongs to R-type instruction set.
+- r10 is the destination register that will hold the value of r1^r4, means performing XOR operation bit by bit.
+- Opcode for XOR = 0110011
+- rd = r10 = 01010
+- rs1 = r1 = 00001
+- rs2 = r4 = 00100
+- func3 = 100
+- func7 = 0000000
+  
+## 32 bits instruction: `0000000_00100_00001_100_01010_0110011`  
+
+`XOR r10, r1, r4`
+
+- All the arithmetic and logical operations are performed using R-type instruction format, hence this instruction belongs to R-type instruction set.
+- r10 is the destination register that will hold the value of r1^r4, means performing XOR operation bit by bit.
+- Opcode for XOR = 0110011
+- rd = r10 = 01010
+- rs1 = r1 = 00001
+- rs2 = r4 = 00100
+- func3 = 100
+- func7 = 0000000
+  
+## 32 bits instruction: `0000000_00100_00001_100_01010_0110011`  
+
+`XOR r10, r1, r4`
+
+- All the arithmetic and logical operations are performed using R-type instruction format, hence this instruction belongs to R-type instruction set.
+- r10 is the destination register that will hold the value of r1^r4, means performing XOR operation bit by bit.
+- Opcode for XOR = 0110011
+- rd = r10 = 01010
+- rs1 = r1 = 00001
+- rs2 = r4 = 00100
+- func3 = 100
+- func7 = 0000000
+  
+## 32 bits instruction: `0000000_00100_00001_100_01010_0110011`  
+
+`XOR r10, r1, r4`
+
+- All the arithmetic and logical operations are performed using R-type instruction format, hence this instruction belongs to R-type instruction set.
+- r10 is the destination register that will hold the value of r1^r4, means performing XOR operation bit by bit.
+- Opcode for XOR = 0110011
+- rd = r10 = 01010
+- rs1 = r1 = 00001
+- rs2 = r4 = 00100
+- func3 = 100
+- func7 = 0000000
+  
+## 32 bits instruction: `0000000_00100_00001_100_01010_0110011`  
+
 
 
   
