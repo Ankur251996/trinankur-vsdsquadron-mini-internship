@@ -118,7 +118,10 @@ In RV32, each instruction is of size 32 bits. In J-type instruction, J stands fo
 
 ![326075098-5dc9a9be-4048-4a35-a99e-7b4a0075caa0](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/a3747770-0b81-469f-802d-0b1931372dc8)
 
-
+- The first field in the instruction format is known as **opcode**, also referred as operation code. The opcode is of length seven bits and is used to determine the type of instruction format.
+- The J-type instruction only consists of single instruction, `JAL`.
+- J-type instruction encode 20 bits signed immediate which is divided into four fields.
+- The J-type instructions are often used to perform jump to the desired memory location. The address of the desired memory location is defined in the instruction. These instructions are also used to implement loops.
   
 
 
