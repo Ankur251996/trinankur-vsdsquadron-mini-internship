@@ -116,6 +116,8 @@ In RV32, each instruction is of size 32 bits. In U-type instruction, U stands fo
 ### 6. J-type instruction
 In RV32, each instruction is of size 32 bits. In J-type instruction, J stands for jump, which means that this instruction format is used to implement jump type instruction. The entire 32 bits instruction is divided into six fields as shown below:
 
+![326075098-5dc9a9be-4048-4a35-a99e-7b4a0075caa0](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/a3747770-0b81-469f-802d-0b1931372dc8)
+
 
   
 
