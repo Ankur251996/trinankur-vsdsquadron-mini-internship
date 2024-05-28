@@ -76,3 +76,9 @@ In RV32, each instruction is of size 32 bits. In R-type instruction, R stands fo
 In RV32, each instruction is of size 32 bits. In I-type instruction, I stands for immediate which means that operations use Registers and immediate value for their execution and are not related with memory location. This instruction type is used in immediate and load operations. The entire 32 bits instructions is divided into five fields as shown below:
 
 ![326074718-4a53f5fa-d55a-4308-8f93-a0f2f3aedba0](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/259f09ad-f5b6-4267-874b-64cdf1131d74)
+
+- The first field in the instruction format is known as **opcode**, also referred as operation cofde. The opcode is of length seven bits and is used to determine the type of instruction format.
+- The next subfield is known as **rd** field which is referred as Destination Register. The rd field is of length five bits and is used to store the final result of operation.
+- The next subfield is **func3** also referred as function 3. Here the '3' represents the size of this field. This field tells the detail about the operation, i.e., the type of arithmetic and logical operations that is performed.
+- The next subfield is the source registers, **rs1** of length five bits. It is mainly used to store and manipulate the data during the execution of instructions.
+- The only difference between R-type and I-type is **rs2 and func7** field of R-type has been replaced by 12-bits signed immediate, **imm[11:0]**.
