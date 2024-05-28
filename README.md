@@ -43,4 +43,4 @@ Therefore, it is evident that no. of instructions is different for o1 and ofast 
 
 ## TASK 2
 
-&& RISC
+- RISC
