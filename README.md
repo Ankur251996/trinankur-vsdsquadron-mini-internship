@@ -64,3 +64,5 @@ Let's discuss each of the instruction formats in detail with examples.
 
 ### 1. R-type instruction
 In RV32, each instruction is of size 32 bits. In R-type instruction, R stands for register which means that operations are carried on the Registers and not on memory location. This instruction type is used to execute various arithmetic and logical operations. The entire 32 bits instruction is divided into six fields as shown below:
+
+![326074559-4a17f03e-ae74-4809-a8d9-79924fb8b421](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/3402b3b1-2a52-46b8-9688-6b25badb956b)
