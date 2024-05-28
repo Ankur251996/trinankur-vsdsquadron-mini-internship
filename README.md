@@ -40,3 +40,5 @@ Now, again we create a .o file and observe the no. of instructions for ofast, by
 Similarly,here also on verifying the result with the help of a programming calculator we get the no. of instructions as 12, for ofast and n=100.
 
 Therefore, it is evident that no. of instructions is different for o1 and ofast i.e, 15 and 12, for n=100.
+
+Task 2
