@@ -228,44 +228,40 @@ In RV32, each instruction is of size 32 bits. In J-type instruction, J stands fo
   
 ## 32 bits instruction: `0000000_00011_00001_010_00010_0100011`  
 
-`XOR r10, r1, r4`
+`SRL r16, r14, r2`
 
-- All the arithmetic and logical operations are performed using R-type instruction format, hence this instruction belongs to R-type instruction set.
-- r10 is the destination register that will hold the value of r1^r4, means performing XOR operation bit by bit.
-- Opcode for XOR = 0110011
-- rd = r10 = 01010
-- rs1 = r1 = 00001
-- rs2 = r4 = 00100
-- func3 = 100
+- SRL means Logical Shift Right and since the operation is performed on registers, this instruction belongs to R-type instruction set.
+- r16 is the destination register in which the value stored in r14 will be written after performing logical right shift based on the number stored in r2.
+- Opcode for SRL = 0110011
+- rd = r16 = 10000
+- rs1 = r14 = 01110
+- rs2 = r2 = 00010
+- func3 = 101
 - func7 = 0000000
   
-## 32 bits instruction: `0000000_00100_00001_100_01010_0110011`  
+## 32 bits instruction: `0000000_00010_01110_101_10000_0110011`  
 
-`XOR r10, r1, r4`
+`BNE r0, r1, 20`
 
-- All the arithmetic and logical operations are performed using R-type instruction format, hence this instruction belongs to R-type instruction set.
-- r10 is the destination register that will hold the value of r1^r4, means performing XOR operation bit by bit.
-- Opcode for XOR = 0110011
-- rd = r10 = 01010
-- rs1 = r1 = 00001
-- rs2 = r4 = 00100
-- func3 = 100
-- func7 = 0000000
+- BNE is a branching instruction(B-type) based on conditions. Here BNE specifies the condition that the value stored in r0!= (is not equal to) the value stored in r1. If the condition becomes true, Program counter will be updated by PC +20, else PC + 4 for next instruction.
+- Opcode for BNE = 1100011
+- rs1 = r0 = 00000
+- rs2 = r1 = 00001
+- imm[12:1]= 20 = 000000010100
+- func3 = 001
   
-## 32 bits instruction: `0000000_00100_00001_100_01010_0110011`  
+## 32 bits instruction: `0_000001_00001_00000_001_0100_0_1100011`  
 
-`XOR r10, r1, r4`
+`BEQ r0, r0, r15`
 
-- All the arithmetic and logical operations are performed using R-type instruction format, hence this instruction belongs to R-type instruction set.
-- r10 is the destination register that will hold the value of r1^r4, means performing XOR operation bit by bit.
-- Opcode for XOR = 0110011
-- rd = r10 = 01010
-- rs1 = r1 = 00001
-- rs2 = r4 = 00100
-- func3 = 100
-- func7 = 0000000
+- BEQ is a branching instruction (B-type) based on conditions. Here BEQ specifies the condition that the value stored in r0==(is equal to) the value stored in r0. If the condition becomes true, Program Counter will be updated by PC +15, else PC + 4 for next instruction.
+- Opcode for BEQ = 1100011
+- rs1 = r0 = 00000
+- rs2 = r0 = 00000
+- imm[12:1] = 000000001111
+- func3 = 000
   
-## 32 bits instruction: `0000000_00100_00001_100_01010_0110011`  
+## 32 bits instruction: `0_000000_00000_00000_000_1111_0_1100011`  
 
 
 
