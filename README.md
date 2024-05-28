@@ -88,5 +88,11 @@ In RV32, each instruction is of size 32 bits. In S-type instruction, S stand for
 
   ![326074837-fc9ddedc-4c99-4b6f-9765-c2e8c8e29302](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/731cdba2-3ba0-4f36-b43d-90ec0b56f4fa)
 
+- The first field in the instruction format is known as **opcode**, also referred as operation cofde. The opcode is of length seven bits and is used to determine the type of instruction format.
+- S-type instructions encode a 12-bit signed immediate, with the top seven bits **imm[11:5] in bits[31:25]** of the instruction and the lower five bits **imm[4:0] in bits[11:7]** of the instruction.
+- S-type instruction doesn't have rd fields which states that this instructions are not used to write value to a register, but to write/store a value to a memory.
+- The value to be stored is defined in **rs1** field and address to which we have to store this value is calculated using **rs1 and immediate** field. The width of the operation and types of instruction is defined by func3, it can be a word, half-word or byte.
+
+
 
   
