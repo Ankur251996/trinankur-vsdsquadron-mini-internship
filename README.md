@@ -1,3 +1,4 @@
+
  # VSDSquadron
 
  ## TASK1
@@ -125,7 +126,17 @@ In RV32, each instruction is of size 32 bits. In J-type instruction, J stands fo
   
 ### Now, let's analyse each instruction given to us one by one
 `ADD r6, r2, r1`
+
+- All the arithmetic and logical operations are performed using R-type instruction format, hence this instruction belongs to R-type instruction set.
+- r6 is the destination register that will hold the sum of values stored in the register r2 and r1.
+- Opcode for ADD= 0110011
+- rd = r6 = 00110
+- rs1 = r2 = 00010
+- rs2 = r1 = 00001
+- func3 = 000
+- func7 = 0000000
   
+## 32 bits instruction: `0000000_00001_00010_000_00110_0110011`  
 
 
   
