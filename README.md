@@ -86,6 +86,7 @@ In RV32, each instruction is of size 32 bits. In I-type instruction, I stands fo
 ### 3. S-type instruction
 In RV32, each instruction is of size 32 bits. In S-type instruction, S stand for store which means it is store type instruction that helps to store the value of register into the memory. Mainly, this instruction type is used for store operations. The entire 32 bits instruction is divided into six fields as shown below:
 
-  
+  ![326074837-fc9ddedc-4c99-4b6f-9765-c2e8c8e29302](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/731cdba2-3ba0-4f36-b43d-90ec0b56f4fa)
+
 
   
