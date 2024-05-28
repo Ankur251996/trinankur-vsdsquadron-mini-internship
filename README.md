@@ -59,3 +59,5 @@ The instructions format of a processor is the way in which machine language inst
 - J-format
 
 ![word-image-1](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/99063392-23d4-4fc9-8e84-41cb8ac52314)
+
+" R, I, S, B, U and J".
