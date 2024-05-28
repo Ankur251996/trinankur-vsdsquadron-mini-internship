@@ -129,7 +129,7 @@ In RV32, each instruction is of size 32 bits. In J-type instruction, J stands fo
 
 - All the arithmetic and logical operations are performed using R-type instruction format, hence this instruction belongs to R-type instruction set.
 - r6 is the destination register that will hold the sum of values stored in the register r2 and r1.
-- Opcode for ADD= 0110011
+- Opcode for ADD = 0110011
 - rd = r6 = 00110
 - rs1 = r2 = 00010
 - rs2 = r1 = 00001
@@ -138,7 +138,21 @@ In RV32, each instruction is of size 32 bits. In J-type instruction, J stands fo
   
 ## 32 bits instruction: `0000000_00001_00010_000_00110_0110011`  
 
+`SUB r7, r1, r2`
 
+- All the arithmetic and logical operations are performed using R-type instruction format, hence this instruction belongs to R-type instruction set.
+- r7 is the destination register that will hold the difference of values stored in the register r1 and r2.
+- Opcode for SUB = 0110011
+- rd = r7 = 00111
+- rs1 = r1 = 00001
+- rs2 = r2 = 00010
+- func3 = 000
+- func7 = 0100000
+  
+## 32 bits instruction: `0100000_00010_00001_000_00111_0110011`  
+
+
+  
   
 
 
