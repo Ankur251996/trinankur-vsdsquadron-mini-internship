@@ -358,7 +358,8 @@ Following are the waveforms starting from top to bottom :
 
 2. ``sub r7, r1, r2``
 
-   ![Alt text](<Task 3/2.SUB.png>)
+![2 SUB](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/f3d56c01-4830-4861-887c-4eab4d38af22)
+
 
 3. ``and r8, r1, r3``
 
