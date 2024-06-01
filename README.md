@@ -380,10 +380,10 @@ Following are the waveforms starting from top to bottom :
 
 ![7 ADDI](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/c4cf9542-bd09-4297-a2be-135140cb635b)
 
-
 8.  ``sw r3, r1, 2``
 
-    ![Alt text](<Task 3/8.SW.png>)
+![8 SW](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/5faedd5e-c485-470d-9528-708e26e638d5)
+
 
 9.  ``lw r13, r1, 2``
 
