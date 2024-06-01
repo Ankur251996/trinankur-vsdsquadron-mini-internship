@@ -360,10 +360,10 @@ Following are the waveforms starting from top to bottom :
 
 ![2 SUB](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/f3d56c01-4830-4861-887c-4eab4d38af22)
 
-
 3. ``and r8, r1, r3``
 
-   ![Alt text](<Task 3/3.AND.png>)
+![3 AND](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/03249df1-65b5-4374-8cda-31450a340ae2)
+
 
 4.  ``or r9, r2, r5``
 
