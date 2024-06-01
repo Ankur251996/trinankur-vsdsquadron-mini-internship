@@ -308,7 +308,9 @@ We will use the verilog code and testbench from the given GitHub repository : ht
    ``cd iiitb_rv32i``
 
 We can observe that the instructions in verilog code are hardcoded by the designer and thus we observe a difference in the 32-bit instruction pattern between the ones we got in **Task 2** and the latter.Same goes for the Hex codes as well.
-![Alt text](<Task 3/Hardcoded instructions.png>)
+
+![Hardcoded instructions](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/7485062c-a8a1-4743-af9a-dc4690abbedb)
+
 
 ### Difference between Standard RISC-V instructions and Hardcoded instructions :
 
