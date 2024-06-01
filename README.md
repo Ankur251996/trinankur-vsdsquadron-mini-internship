@@ -354,7 +354,7 @@ Following are the waveforms starting from top to bottom :
 
 1. ``add r6, r2, r1`` 
 
-   ![Alt text](<Task 3/1.ADD.png>) 
+![1 ADD](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/65d3dd49-2bf5-492e-939d-98c2465c68a7)
 
 2. ``sub r7, r1, r2``
 
