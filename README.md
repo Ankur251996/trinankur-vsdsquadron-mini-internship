@@ -370,7 +370,7 @@ Following are the waveforms starting from top to bottom :
 
 5.  ``xor r10, r1, r4``
 
-    ![Alt text](<Task 3/5.XOR.png>)
+![5 XOR](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/273c4601-a431-48e0-9ed8-12221dc25e55)
 
 6.  ``slt r11, r2, r4``
 
