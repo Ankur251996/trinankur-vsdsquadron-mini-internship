@@ -289,10 +289,10 @@ In RV32, each instruction is of size 32 bits. In J-type instruction, J stands fo
 ## 32 bits instruction: `0000000_00010_00001_001_01111_0110011`  
 
 
-  </details>
+### TASK 3
 
-<details> 
-    <summary>Task 3</summary>
+ 
+   
 The third task is to use the RISC-V Core(Verilog netlist and testbench) and perform functional simulation experiment and analyse the waveform.
 
 We will use the verilog code and testbench from the given GitHub repository : https://github.com/vinayrayapati/rv32i.git
@@ -395,7 +395,5 @@ Following are the waveforms starting from top to bottom :
     ![Alt text](<Task 3/11.ADD.png>)
 
 Thus Task 3 is successfully performed.
-
-</details>
 
   
