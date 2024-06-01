@@ -392,10 +392,9 @@ Following are the waveforms starting from top to bottom :
 
 ![10 BEQ](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/34c8f44a-90c5-4540-a3e7-e8283e0650f7)
 
-
 11. ``add r14, r2, r2``
 
-    ![Alt text](<Task 3/11.ADD.png>)
+![11 ADD](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/2cb8c687-c605-4aa2-b6f4-13352a354059)
 
 Thus Task 3 is successfully performed.
 
