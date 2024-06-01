@@ -374,7 +374,8 @@ Following are the waveforms starting from top to bottom :
 
 6.  ``slt r11, r2, r4``
 
-    ![Alt text](<Task 3/6.SLT.png>)
+![6 SLT](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/eff0036c-ee8c-4dd3-b88a-5ce28d0838e6)
+
 
 7.  ``addi r12, r4, 5``
 
