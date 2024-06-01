@@ -303,7 +303,7 @@ We will use the verilog code and testbench from the given GitHub repository : ht
 
    ``git clone https://github.com/vinayrayapati/iiitb_rv32i``
 
-2. Then we go to the ``iiitb_rv32i`` usign the command :
+2. Then we go to the ``iiitb_rv32i`` using the command :
 
    ``cd iiitb_rv32i``
 
