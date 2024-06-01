@@ -364,10 +364,9 @@ Following are the waveforms starting from top to bottom :
 
 ![3 AND](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/03249df1-65b5-4374-8cda-31450a340ae2)
 
-
 4.  ``or r9, r2, r5``
 
-    ![Alt text](<Task 3/4.OR.png>)
+![4 OR](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/0bf56d29-23a3-4aef-81e1-61b514619e06)
 
 5.  ``xor r10, r1, r4``
 
