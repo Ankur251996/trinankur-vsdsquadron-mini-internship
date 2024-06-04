@@ -423,9 +423,9 @@ The data inputs pins of the 7447 decoder is connected to the digital input pins 
 
 ![20240604_182950](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/0e723201-a5b5-4c4a-a851-dd926545099e)
 
-### Table for Pin Connection
+### Table for Pin Connection:
 
-|    7447 Decoder                   |        CH32V003x                        |
+| 7440                              |        CH32V003x                        | 
 |:.................................:|:.......................................:|
 | Vcc                               |   VIN                                   |
 | Pin7                              |   PD1                                   |
