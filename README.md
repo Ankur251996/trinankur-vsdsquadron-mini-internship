@@ -418,3 +418,6 @@ A seven-segment indicator is used for displaying any one of the decimal digits 0
 ### Circuit Connection for BCD-to-seven-segment decimal display from 0 to 9
 
 The data inputs pins of the 7447 decoder is connected to the digital input pins of the CH32V003X.The Decoder 7447 outputs a, b, c, d, e, f, g are connected to the inputs of the 7730 seven-segment display. The output is displayed from 0 to 9 in decimal. The Vcc of CH32V003X is given in the range of 1.8 to 3.6 volts. The Vcc of the decoder and seven segment is also given accordingly. The GND pin of all the components are grounded.
+
+### Pinout Diagram for BCD-to-seven-segment decimal display from 0 to 9
+
