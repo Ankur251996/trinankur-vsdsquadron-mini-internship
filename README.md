@@ -405,3 +405,16 @@ Thus Task 3 is successfully performed.
 ### Overview
 
 A seven-segment indicator is used for displaying any one of the decimal digits 0 through 9. Usually, the decimal digit is available in BCD. A BCD-to-seven-segment decoder accepts a decimal digit in BCD and generates the corresponding seven segment code. The circuit connections necessary between the decoder and the display has been shown in the diagram below. The 7447 IC is a BCD-to-seven-segment decoder/driver. It has four inputs for the BCD digit. Input D is the most significant and A the least significant. The 4-bit BCD digit is converted to a seven-segment code with outputs a through g. The output of the 7447 are applied to the inputs of the 7730 (or equivalent) seven-segment display. This IC contains the seven LED(light-emitting Diode) segments on top of the package. The input at pin 14 is the common anode(CA) for all the LEDs. A 47 ohm resistor to Vcc is needed in order to supply the proper current to the selected LED segments.
+
+### Components Required for building the application
+
+- CH32V003X
+- BCD-to-seven-segment decoder 7447
+- Seven-segment Display 7730
+- Power Supply
+- Bread Board
+- Jumper Wires
+
+### Circuit Connection for BCD-to-seven-segment decimal display from 0 to 9
+
+The data inputs pins of the 7447 decoder is connected to the digital input pins of the CH32V003X.The Decoder 7447 outputs a, b, c, d, e, f, g are connected to the inputs of the 7730 seven-segment display. The output is displayed from 0 to 9 in decimal. The Vcc of CH32V003X is given in the range of 1.8 to 3.6 volts. The Vcc of the decoder and seven segment is also given accordingly. The GND pin of all the components are grounded.
