@@ -422,3 +422,14 @@ The data inputs pins of the 7447 decoder is connected to the digital input pins 
 ### Pinout Diagram for BCD-to-seven-segment decimal display from 0 to 9
 
 ![20240604_182950](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/0e723201-a5b5-4c4a-a851-dd926545099e)
+
+### Table for Pin Connection
+
+|    7447 Decoder                   |        CH32V003x                        |
+|:.................................:|:.......................................:|
+| Vcc                               |   VIN                                   |
+| Pin7                              |   PD1                                   |
+| Pin 1                             |   PD2                                   |
+| Pin 2                             |   PD3                                   |
+| Pin 6                             |   PD4                                   |
+| GND                               |   GND                                   |
