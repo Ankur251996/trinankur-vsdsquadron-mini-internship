@@ -425,11 +425,11 @@ The data inputs pins of the 7447 decoder is connected to the digital input pins 
 
 ### Table for Pin Connection:
 
-| 7440                              |        CH32V003x                        | 
-|:.................................:|:.......................................:|
-| Vcc                               |   VIN                                   |
-| Pin7                              |   PD1                                   |
-| Pin 1                             |   PD2                                   |
-| Pin 2                             |   PD3                                   |
-| Pin 6                             |   PD4                                   |
-| GND                               |   GND                                   |
+|                  	|      7447 Decoder       |          CH32V003x 	          |
+|:----------------:	|:----------------------:	|:----------------------------:	|
+|                  	|      Vcc     	          |            VIN         	      |
+|   	               |      Pin7      	        |            PD1        	       |
+|    	              |      Pin1     	         |            PD2         	      |
+|     	             |      Pin2      	        |            PD3        	       |
+|  	                |      Pin6      	        |            PD4        	       |
+|  	                |      GND               	|            GND        	       |
