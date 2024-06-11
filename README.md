@@ -435,5 +435,130 @@ The Pins 3,5,4,7,0,1,2 of C-Port acts as the output pins of the VSD SquadronMini
 |  	                |       f               	 |            PC1        	       |
 |  	                |       g               	 |            PC2        	       |
 
-### Code for the BCD-to-seven-segment decimal display from 0 to 9
+### Code for the BCD-to-seven-segment decimal display from 0 to 9#include <ch32v00x.h>
+#include <debug.h>
+
+void GPIO_Config(void)
+{
+    GPIO_InitTypeDef GPIO_InitStructure = {0};
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_3 | GPIO_Pin_5 | GPIO_Pin_4 | GPIO_Pin_7 | GPIO_Pin_0 | GPIO_Pin_1 | GPIO_Pin_2;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+    GPIO_Init(GPIOC, &GPIO_InitStructure);
+}
+
+int main(void)
+{
+
+    NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+    SystemCoreClockUpdate();
+    Delay_Init();
+    GPIO_Config();
+
+    while(1)
+    {
+        GPIO_SetBits(GPIOC, GPIO_Pin_3 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_5 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_4 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_7 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_0 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_1 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_2 );
+        
+        Delay_Ms(2000);
+
+        GPIO_ResetBits(GPIOC, GPIO_Pin_3 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_5 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_4 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_7 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_0 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_1 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_2 );
+        
+        Delay_Ms(2000);
+
+        GPIO_SetBits(GPIOC, GPIO_Pin_3 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_5 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_4 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_7 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_0 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_1 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_2 );
+        
+        Delay_Ms(2000);
+
+        GPIO_SetBits(GPIOC, GPIO_Pin_3 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_5 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_4 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_7 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_0 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_1 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_2 );
+        
+        Delay_Ms(2000);
+
+        GPIO_ResetBits(GPIOC, GPIO_Pin_3 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_5 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_4 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_7 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_0 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_1 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_2 );
+        
+        Delay_Ms(2000);
+
+        GPIO_SetBits(GPIOC, GPIO_Pin_3 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_5 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_4 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_7 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_0 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_1 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_2 );
+        
+        Delay_Ms(2000);
+
+        GPIO_SetBits(GPIOC, GPIO_Pin_3 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_5 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_4 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_7 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_0 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_1 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_2 );
+        
+        Delay_Ms(2000);
+
+        GPIO_SetBits(GPIOC, GPIO_Pin_3 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_5 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_4 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_7 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_0 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_1 );
+        GPIO_ResetBits(GPIOC, GPIO_Pin_2 );
+        
+        Delay_Ms(2000);
+
+        GPIO_SetBits(GPIOC, GPIO_Pin_3 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_5 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_4 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_7 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_0 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_1 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_2 );
+        
+        Delay_Ms(2000);
+
+        GPIO_SetBits(GPIOC, GPIO_Pin_3 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_5 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_4 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_7 );
+        GPIO_ResetBits(GPIOC,  GPIO_Pin_0 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_1 );
+        GPIO_SetBits(GPIOC, GPIO_Pin_2 );
+        
+        Delay_Ms(2000);
+    }
+}
+
+
 
