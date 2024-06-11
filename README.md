@@ -435,7 +435,10 @@ The Pins 3,5,4,7,0,1,2 of C-Port acts as the output pins of the VSD SquadronMini
 |  	                |       f               	 |            PC1        	       |
 |  	                |       g               	 |            PC2        	       |
 
-### Code for the BCD-to-seven-segment decimal display from 0 to 9#include <ch32v00x.h>
+### Code for the BCD-to-seven-segment decimal display from 0 to 9
+
+
+#include <ch32v00x.h>
 #include <debug.h>
 
 void GPIO_Config(void)
