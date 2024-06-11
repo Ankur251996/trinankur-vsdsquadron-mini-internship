@@ -404,20 +404,19 @@ Thus Task 3 is successfully performed.
 
 ### Overview
 
-A seven-segment indicator is used for displaying any one of the decimal digits 0 through 9. Usually, the decimal digit is available in BCD. A BCD-to-seven-segment decoder accepts a decimal digit in BCD and generates the corresponding seven segment code. The circuit connections necessary between the decoder and the display has been shown in the diagram below. The 7447 IC is a BCD-to-seven-segment decoder/driver. It has four inputs for the BCD digit. Input D is the most significant and A the least significant. The 4-bit BCD digit is converted to a seven-segment code with outputs a through g. The output of the 7447 are applied to the inputs of the 7730 (or equivalent) seven-segment display. This IC contains the seven LED(light-emitting Diode) segments on top of the package. The input at pin 14 is the common anode(CA) for all the LEDs. A 47 ohm resistor to Vcc is needed in order to supply the proper current to the selected LED segments.
+A seven-segment indicator is used for displaying any one of the decimal digits 0 through 9. Usually, the decimal digit is available in BCD. The code for BCD-to-seven-segment accepts a decimal digit in BCD and generates the corresponding seven segment code. The circuit connections necessary between the VSD SquadronMini and the display is shown in the figure below. 
 
 ### Components Required for building the application
 
 - CH32V003X
-- BCD-to-seven-segment decoder 7447
-- Seven-segment Display 7730
+- Seven-segment Display 5161AS
 - Power Supply
 - Bread Board
 - Jumper Wires
 
 ### Circuit Connection for BCD-to-seven-segment decimal display from 0 to 9
 
-The data inputs pins of the 7447 decoder is connected to the digital input pins of the CH32V003X.The Decoder 7447 outputs a, b, c, d, e, f, g are connected to the inputs of the 7730 seven-segment display. The output is displayed from 0 to 9 in decimal. The Vcc of CH32V003X is given in the range of 1.8 to 3.6 volts. The Vcc of the decoder and seven segment is also given accordingly. The GND pin of all the components are grounded.
+The Pins 3,5,4,7,0,1,2 of C-Port acts as the output pins of the VSD SquadronMini and are connected to segments:a,b,c,d,e,f,g and as we are using a common cathode seven segment display,so the common is grounded.
 
 ### Pinout Diagram for BCD-to-seven-segment decimal display from 0 to 9
 
@@ -425,11 +424,13 @@ The data inputs pins of the 7447 decoder is connected to the digital input pins 
 
 ### Table for Pin Connection:
 
-|                  	|      7447 Decoder       |          CH32V003x 	          |
+|                  	|  seven-segment display  |          CH32V003x 	          |
 |:----------------:	|:----------------------:	|:----------------------------:	|
-|                  	|      Vcc     	          |            VIN         	      |
-|   	               |      Pin7      	        |            PD1        	       |
-|    	              |      Pin1     	         |            PD2         	      |
-|     	             |      Pin2      	        |            PD3        	       |
-|  	                |      Pin6      	        |            PD4        	       |
-|  	                |      GND               	|            GND        	       |
+|                  	|      Common    	        |            GND        	       |
+|   	               |       a      	          |            PC3        	       |
+|    	              |       b     	           |            PC5         	      |
+|     	             |       c      	          |            PC4        	       |
+|  	                |       d      	          |            PC7        	       |
+|  	                |       e               	 |            PC0        	       |
+|  	                |       f               	 |            PC1        	       |
+|  	                |       g               	 |            PC2        	       |
