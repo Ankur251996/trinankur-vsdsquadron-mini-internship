@@ -420,7 +420,7 @@ The Pins 3,5,4,7,0,1,2 of C-Port acts as the output pins of the VSD SquadronMini
 
 ### Pinout Diagram for BCD-to-seven-segment decimal display from 0 to 9
 
-
+![Screenshot 2024-06-12 141129](https://github.com/Ankur251996/trinankur-vsdsquadron-mini-internship/assets/170226117/692873c4-3b32-496f-9996-4ea46284bf6a)
 
 ### Table for Pin Connection:
 
